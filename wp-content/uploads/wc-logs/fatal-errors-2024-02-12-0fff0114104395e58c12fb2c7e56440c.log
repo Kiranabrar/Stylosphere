@@ -1,0 +1,20 @@
+2024-02-12T06:17:44+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in C:\xampp\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(499): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#2 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#3 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xampp\htdocs\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#10 C:\xampp\htdocs\wordpress\wp-includes\functions.php(1336): WP->main('')
+#11 C:\xampp\htdocs\wordpress\wp-blog-header.php(16): wp()
+#12 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php on line 148
+
+2024-02-12T07:17:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\Checkout.php on line 506
+
