@@ -1,0 +1,6 @@
+2024-02-03T04:57:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\contact-form-7\modules\akismet\service.php on line 3
+
+2024-02-03T04:58:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\modules\nested-elements\module.php on line 6
+
+2024-02-03T04:59:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\controls-stack.php on line 1433
+
