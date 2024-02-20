@@ -1,0 +1,6 @@
+2024-02-20T07:45:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Stylosphere\wp-includes\class-wpdb.php on line 2349
+
+2024-02-20T07:53:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Stylosphere\wp-includes\Requests\src\Transport\Curl.php on line 510
+
+2024-02-20T08:03:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Stylosphere\wp-includes\Requests\src\Transport\Curl.php on line 510
+
